@@ -26,8 +26,8 @@
             "timestamp": "Створено",
             "blockNumber": "Номер",
             "blockSize": "Розмір",
-            "rootHash": "Кореневий хеш",
-            "noRootHashYet": "Ще немає кореневого хешу",
+            "blockHash": "Хеш блоку",
+            "noBlockHashYet": "Ще немає хешу блоку",
             "committedAt": "Затверджений",
             "commitTxHash": "Завірений хеш",
             "notYetCommitted": "Ще не затверджено",
@@ -152,7 +152,6 @@
             "contractVerification": "Верифікація Смарт контракту",
             "debugger": "zkEVM Налагоджувач",
             "blockExplorer": "Провідник",
-            "portal": "Портал",
             "documentation": "Документація"
         }
     },

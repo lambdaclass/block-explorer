@@ -40,9 +40,9 @@
             "blockNumberTooltip": "Block height, indicates the length of the blockchain, increases after the addition of the new block",
             "blockSize": "Block Size",
             "blockSizeTooltip": "Number of transactions inside the block",
-            "rootHash": "Root hash",
-            "rootHashTooltip": "State root hash obtained after this block execution",
-            "noRootHashYet": "No root hash yet",
+            "blockHash": "Block hash",
+            "blockHashTooltip": "The hash of the current block",
+            "noBlockHashYet": "No block hash yet",
             "commitTxHash": "Commit tx hash",
             "commitTxHashTooltip": "Hash of the L1 transaction sent to the smart contract to commit the block",
             "committedAt": "Committed",
@@ -281,7 +281,6 @@
     "header": {
         "nav": {
             "blockExplorer": "Block Explorer",
-            "portal": "Portal",
             "documentation": "Documentation",
             "tools": "Tools",
             "apiDocs": "API Documentation",
@@ -458,7 +457,8 @@
                 "validation": {
                     "required": "Solc version is required"
                 },
-                "error": "Unable to get list of supported Solc versions"
+                "error": "Unable to get list of supported Solc versions",
+                "zkVM": "zkVM"
             },
             "zksolcVersion": {
                 "label": "Zksolc Version",
