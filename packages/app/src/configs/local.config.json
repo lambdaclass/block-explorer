@@ -1,18 +1,20 @@
 {
   "networks": [
-    {
-      "apiUrl": "http://localhost:3020",
-      "bridgeUrl": "http://localhost:3000/bridge",
-      "hostnames": [
-        "localhost"
-      ],
-      "icon": "/images/icons/zksync-arrows.svg",
-      "l2ChainId": 270,
-      "l2NetworkName": "Local",
-      "maintenance": false,
-      "name": "local",
-      "published": true,
-      "rpcUrl": "http://localhost:3050"
-    }
+      {
+        "apiUrl": "http://explorer-api-service:3020",
+        "verificationApiUrl": "",
+        "bridgeUrl": "",
+        "hostnames": [
+          "localhost"
+        ],
+        "icon": "/images/icons/zksync-arrows.svg",
+        "l1ExplorerUrl": "https://sepolia.etherscan.io",
+        "l2ChainId": 270,
+        "l2NetworkName": "zkSync Era Shyft Sepolia Prover Testnet - kubernetes",
+        "maintenance": false,
+        "name": "shyft-prover-sepolia-kubernetes",
+        "published": true,
+        "rpcUrl": "https://dev.rpc.sepolia.shyft.lambdaclass.com"
+      }
   ]
 }
