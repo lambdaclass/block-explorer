@@ -1,6 +1,7 @@
 services:
   app:
     platform: linux/amd64
+    image: us-central1-docker.pkg.dev/zksync-413615/zksync/explorer-app:lambda.0
     build:
       context: .
       dockerfile: ./packages/app/Dockerfile
