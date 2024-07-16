@@ -1,18 +1,18 @@
 {
   "networks": [
       {
-        "apiUrl": "http://explorer-api-service:3020",
+        "apiUrl": "https://k8s.explorer.api.sepolia.shyft.lambdaclass.com",
         "verificationApiUrl": "",
-        "bridgeUrl": "",
+        "bridgeUrl": "https://k8s.portal.sepolia.shyft.lambdaclass.com",
         "hostnames": [
-          "http://k8s.explorer.sepolia.shyft.lambdaclass.com"
+          "https://k8s.explorer.sepolia.shyft.lambdaclass.com"
         ],
         "icon": "/images/icons/zksync-arrows.svg",
         "l1ExplorerUrl": "https://sepolia.etherscan.io",
         "l2ChainId": 270,
-        "l2NetworkName": "PROD",
+        "l2NetworkName": "zkSync Era Shyft Sepolia Devnet - kubernetes",
         "maintenance": false,
-        "name": "shyft-prover-sepolia-kubernetes",
+        "name": "shyft-sepolia-kubernetes",
         "published": true,
         "rpcUrl": "https://dev.rpc.sepolia.shyft.lambdaclass.com"
       }

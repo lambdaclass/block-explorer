@@ -1,5 +1,6 @@
 FROM node:18.17.1-alpine AS base-stage
 ENV NODE_ENV=production
+ENV VITE_APP_ENVIRONMENT=production
 
 WORKDIR /usr/src/app
 RUN apk add --update python3 make g++ && rm -rf /var/cache/apk/*
@@ -14,6 +15,7 @@ RUN rm -f .npmrc
 
 FROM base-stage AS development-stage
 ENV NODE_ENV=development
+ENV VITE_APP_ENVIRONMENT=production
 COPY --chown=node:node .npmrc .npmrc
 RUN npm ci
 RUN rm -f .npmrc
@@ -27,6 +29,8 @@ RUN npm i -g http-server
 
 ARG NODE_ENV=production
 ENV NODE_ENV $NODE_ENV
+ARG VITE_APP_ENVIRONMENT=production
+ENV VITE_APP_ENVIRONMENT $VITE_APP_ENVIRONMENT
 
 ARG PORT=3010
 ENV PORT $PORT
