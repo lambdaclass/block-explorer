@@ -14,7 +14,7 @@
         "maintenance": false,
         "name": "shyft-prover-sepolia-kubernetes",
         "published": true,
-        "rpcUrl": "https://dev.rpc.sepolia.shyft.lambdaclass.com"
+        "rpcUrl": "https://k8s.rpc.sepolia.shyft.lambdaclass.com"
       }
   ]
 }
